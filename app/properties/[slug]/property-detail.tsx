@@ -153,6 +153,80 @@ export function PropertyDetail({ property }: PropertyDetailProps) {
                   ))}
                 </div>
               </div>
+
+              {/* Guest Access */}
+              {property.slug === "3bhk-villa" && (
+                <div>
+                  <h2 className="text-xs tracking-[0.3em] uppercase text-primary mb-6">
+                    Guest Access
+                  </h2>
+                  <div className="flex flex-col gap-4">
+                    <p className="text-foreground/90 leading-relaxed">
+                      <span className="font-semibold">Three Private Bedrooms:</span> All bedrooms are yours to use, featuring air conditioning and fresh linens.
+                    </p>
+                    <p className="text-foreground/90 leading-relaxed">
+                      <span className="font-semibold">Living & Dining Area:</span> A spacious hall perfect for family gatherings or catching up on work.
+                    </p>
+                    <p className="text-foreground/90 leading-relaxed">
+                      <span className="font-semibold">Fully Equipped Kitchen:</span> Feel free to cook your own meals. Access to stove, refrigerator, kettle, and all utensils.
+                    </p>
+                    <p className="text-foreground/90 leading-relaxed">
+                      <span className="font-semibold">Private Terrace:</span> Enjoy your morning tea with a view of the Mangalore skyline.
+                    </p>
+                    <p className="text-foreground/90 leading-relaxed">
+                      <span className="font-semibold">Laundry Area:</span> A washing machine is available for your use—ideal for longer stays.
+                    </p>
+                    <p className="text-foreground/90 leading-relaxed">
+                      <span className="font-semibold">Parking & Entry:</span> Dedicated parking with 2 covered spots inside the premises. Easy entry on the ground floor. Self check-in via smart lock.
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {/* House Rules */}
+              {property.slug === "3bhk-villa" && (
+                <div>
+                  <h2 className="text-xs tracking-[0.3em] uppercase text-primary mb-6">
+                    House Rules
+                  </h2>
+                  <div className="flex flex-col gap-4">
+                    <div>
+                      <p className="font-semibold text-foreground mb-2">Checking In and Out</p>
+                      <div className="space-y-1 text-sm text-foreground/80">
+                        <p>• Check-in: After 2:00 pm</p>
+                        <p>• Check-out: Before 12:00 pm</p>
+                        <p>• Self check-in available via smart lock (instructions sent 24 hours before)</p>
+                      </div>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground mb-2">During Your Stay</p>
+                      <div className="space-y-1 text-sm text-foreground/80">
+                        <p>• Maximum 6 guests</p>
+                        <p>• No pets</p>
+                        <p>• Quiet hours: 11:00 pm - 7:00 am</p>
+                        <p>• No parties or events</p>
+                        <p>• No smoking</p>
+                      </div>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground mb-2">Before You Leave</p>
+                      <div className="space-y-1 text-sm text-foreground/80">
+                        <p>• Gather used towels</p>
+                        <p>• Throw rubbish away</p>
+                        <p>• Turn things off</p>
+                        <p>• Return keys and lock up</p>
+                      </div>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground mb-2">Additional Services</p>
+                      <div className="space-y-1 text-sm text-foreground/80">
+                        <p>• Luggage drop-off allowed for early arrivals or late departures</p>
+                        <p>• Long-term stays of 28+ days allowed</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Right: Sticky Booking Card */}
