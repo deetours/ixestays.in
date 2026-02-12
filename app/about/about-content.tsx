@@ -92,7 +92,7 @@ export function AboutContent() {
             className="relative aspect-[4/5] overflow-hidden rounded-sm"
           >
             <Image
-              src="/images/lifestyle-balcony.jpg"
+              src="/images/lifestyle-balcony.png"
               alt="Morning balcony view at IxeStays"
               fill
               className="object-cover"

@@ -31,14 +31,14 @@ const experiences = [
   {
     title: "Morning Yoga",
     tagline: "Begin where the breath meets the horizon.",
-    image: "/images/lifestyle-balcony.jpg",
+    image: "/images/lifestyle-balcony.png",
     duration: "1 Hour",
     difficulty: "All Levels",
   },
   {
     title: "Night Sky Gazing",
     tagline: "When the stars remind you how small your worries are.",
-    image: "/images/lifestyle-evening.jpg",
+    image: "/images/lifestyle-evening.png",
     duration: "Late Evening",
     difficulty: "Easy",
   },

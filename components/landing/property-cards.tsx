@@ -11,7 +11,7 @@ const properties = [
     slug: "3bhk-villa",
     title: "The 3BHK Villa",
     tagline: "Made for families who stay up late.",
-    image: "/images/3bhk-villa.jpg",
+    image: "/images/3bhk-villa.png",
     href: "/properties/3bhk-villa",
     guests: "Up to 8 guests",
     price: "From \u20B94,500/night",

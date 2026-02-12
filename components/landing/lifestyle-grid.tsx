@@ -5,25 +5,25 @@ import Image from "next/image"
 
 const lifestyleItems = [
   {
-    image: "/images/lifestyle-balcony.jpg",
+    image: "/images/lifestyle-balcony.png",
     caption: "Golden Hours.",
     span: "col-span-1 md:col-span-2 row-span-2",
     aspect: "aspect-[4/3]",
   },
   {
-    image: "/images/lifestyle-dining.jpg",
+    image: "/images/lifestyle-dining.png",
     caption: "Late Evenings.",
     span: "col-span-1",
     aspect: "aspect-square",
   },
   {
-    image: "/images/lifestyle-workspace.jpg",
+    image: "/images/lifestyle-workspace.png",
     caption: "Private Corners.",
     span: "col-span-1",
     aspect: "aspect-square",
   },
   {
-    image: "/images/lifestyle-evening.jpg",
+    image: "/images/lifestyle-evening.png",
     caption: "Warm Nights.",
     span: "col-span-1 md:col-span-2",
     aspect: "aspect-[2/1]",
